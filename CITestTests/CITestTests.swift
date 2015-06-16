@@ -26,4 +26,8 @@ class CITestTests: XCTestCase {
         XCTFail("failing test")
 //        XCTAssert(true, "Pass")
     }
+
+    func test_alwaysPasses() {
+        XCTAssert(true)
+    }
 }
