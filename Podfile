@@ -4,7 +4,7 @@
 use_frameworks!
 
 target 'CITest' do
-pod 'Moya'
+#pod 'Moya'
 end
 
 target 'CITestTests' do
