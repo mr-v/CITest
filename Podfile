@@ -4,7 +4,7 @@
 use_frameworks!
 
 target 'CITest' do
-#pod 'Moya'
+  pod 'LlamaKit', '~> 0.6'
 end
 
 target 'CITestTests' do

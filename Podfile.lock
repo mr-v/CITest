@@ -1,1 +1,10 @@
+PODS:
+  - LlamaKit (0.6.0)
+
+DEPENDENCIES:
+  - LlamaKit (~> 0.6)
+
+SPEC CHECKSUMS:
+  LlamaKit: dbb01a9e77a78c9f4c1a1c9fef6f2bcf04c38c42
+
 COCOAPODS: 0.37.2

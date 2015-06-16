@@ -6,68 +6,429 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		36306BCAD5AB5A17E9EB1DFD /* Pods-CITest-LlamaKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4B98526143F1716C40576 /* Pods-CITest-LlamaKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FADB19A1C6F5476961C7390 /* Pods-CITest-LlamaKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC940990BA15CE9F5DFC59B /* Pods-CITest-LlamaKit-dummy.m */; };
+		A28E871E0D5737DAD6167A44 /* Pods-CITest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B58443497EC5A64E12FB20 /* Pods-CITest-dummy.m */; };
+		B6DE05A9266C7A72B0AE6E0B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CEA65D2F092ABA25A69142 /* Result.swift */; };
+		B71047874E05FE55718C19ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BD0364EF199E41ED976B6E /* Foundation.framework */; };
+		D1706FAFB924BA2E85F62A60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BD0364EF199E41ED976B6E /* Foundation.framework */; };
+		D20D9D7975EB8F5678E9D342 /* Pods-CITest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5929AF17C814EB5E63217C /* Pods-CITest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		941FAD89D4B11D9B232382D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2431A3E9FD67AC66435F7C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7D0DA93052A8FF3BD3D1552;
+			remoteInfo = "Pods-CITest-LlamaKit";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		E7A72E4CCDE324BFC3E27AD0 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		05CEA65D2F092ABA25A69142 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = LlamaKit/Result.swift; sourceTree = "<group>"; };
+		171DEC04CAE3D7AC44521D96 /* Pods-CITest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CITest.modulemap"; sourceTree = "<group>"; };
+		1DCB41177F00D3208649F0B1 /* Pods-CITest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CITest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2BBF1FCC195545FDD755525D /* Pods_CITest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CITest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		407D8906A6C966BF1196BD1B /* Pods-CITest-LlamaKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CITest-LlamaKit-prefix.pch"; sourceTree = "<group>"; };
+		4D5929AF17C814EB5E63217C /* Pods-CITest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CITest-umbrella.h"; sourceTree = "<group>"; };
+		521BBEF79291C49BAB61767D /* Pods-CITest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CITest.debug.xcconfig"; sourceTree = "<group>"; };
+		63EA1519D2B28EB3530CF4DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73A2685395025231DDD1F9B1 /* Pods-CITest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CITest-resources.sh"; sourceTree = "<group>"; };
+		78E2E4D2E62D369D635C717A /* Pods-CITest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CITest-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E9461A2FEA61135A271942E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808560660AA97BA37F60ED3F /* Pods-CITest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CITest.release.xcconfig"; sourceTree = "<group>"; };
+		838FB7828765FA1C8A4B8682 /* Pods-CITest-LlamaKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CITest-LlamaKit.xcconfig"; sourceTree = "<group>"; };
+		89BD0364EF199E41ED976B6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		91553FCEF8A04B5D780E2452 /* Pods-CITest-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CITest-environment.h"; sourceTree = "<group>"; };
+		A3B58443497EC5A64E12FB20 /* Pods-CITest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CITest-dummy.m"; sourceTree = "<group>"; };
+		C5A4B98526143F1716C40576 /* Pods-CITest-LlamaKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CITest-LlamaKit-umbrella.h"; sourceTree = "<group>"; };
+		CFC940990BA15CE9F5DFC59B /* Pods-CITest-LlamaKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CITest-LlamaKit-dummy.m"; sourceTree = "<group>"; };
+		E00F9E4220BC15B78B05FE2D /* Pods-CITest-LlamaKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CITest-LlamaKit.modulemap"; sourceTree = "<group>"; };
+		E63D5446413CC5F3DFF3FDC4 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EE76FF4128FCC2905087590C /* LlamaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LlamaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58BC57B14009FE8749CEAD9 /* Pods-CITest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CITest-frameworks.sh"; sourceTree = "<group>"; };
+		F630523C57528E05751D62EA /* Pods-CITest-LlamaKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CITest-LlamaKit-Private.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		702C485938B776C91643692B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1706FAFB924BA2E85F62A60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3217187074194CDF209472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71047874E05FE55718C19ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
-		279BD56FABFF0742B64C3C06 /* Frameworks */ = {
+		0DD38428C864A929C49A8158 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5D1DCEEC4F13FEA88B40CDF8 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		47B2C28A01F0A8D06B4FB68A /* Products */ = {
+		2DB5C1D93D2501768C6B4266 = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4A7606980503A873E5087E82 = {
-			isa = PBXGroup;
-			children = (
-				E7A72E4CCDE324BFC3E27AD0 /* Podfile */,
-				279BD56FABFF0742B64C3C06 /* Frameworks */,
-				47B2C28A01F0A8D06B4FB68A /* Products */,
-				68788582058F0793622C7F4E /* Targets Support Files */,
+				E63D5446413CC5F3DFF3FDC4 /* Podfile */,
+				0DD38428C864A929C49A8158 /* Frameworks */,
+				5D814549DFC46C87DA0BC63B /* Pods */,
+				BAAB4E9951F34E91759634A9 /* Products */,
+				68A48E45165C9C30850B9760 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		68788582058F0793622C7F4E /* Targets Support Files */ = {
+		40A13E8E022B0EE4136C73A4 /* Pods-CITest */ = {
 			isa = PBXGroup;
 			children = (
+				7E9461A2FEA61135A271942E /* Info.plist */,
+				171DEC04CAE3D7AC44521D96 /* Pods-CITest.modulemap */,
+				1DCB41177F00D3208649F0B1 /* Pods-CITest-acknowledgements.markdown */,
+				78E2E4D2E62D369D635C717A /* Pods-CITest-acknowledgements.plist */,
+				A3B58443497EC5A64E12FB20 /* Pods-CITest-dummy.m */,
+				91553FCEF8A04B5D780E2452 /* Pods-CITest-environment.h */,
+				F58BC57B14009FE8749CEAD9 /* Pods-CITest-frameworks.sh */,
+				73A2685395025231DDD1F9B1 /* Pods-CITest-resources.sh */,
+				4D5929AF17C814EB5E63217C /* Pods-CITest-umbrella.h */,
+				521BBEF79291C49BAB61767D /* Pods-CITest.debug.xcconfig */,
+				808560660AA97BA37F60ED3F /* Pods-CITest.release.xcconfig */,
+			);
+			name = "Pods-CITest";
+			path = "Target Support Files/Pods-CITest";
+			sourceTree = "<group>";
+		};
+		5D1DCEEC4F13FEA88B40CDF8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				89BD0364EF199E41ED976B6E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D814549DFC46C87DA0BC63B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B185FCAED1C9473DAAC12113 /* LlamaKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		68A48E45165C9C30850B9760 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40A13E8E022B0EE4136C73A4 /* Pods-CITest */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		AB9DA910278FC803A374AAF9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63EA1519D2B28EB3530CF4DD /* Info.plist */,
+				E00F9E4220BC15B78B05FE2D /* Pods-CITest-LlamaKit.modulemap */,
+				838FB7828765FA1C8A4B8682 /* Pods-CITest-LlamaKit.xcconfig */,
+				F630523C57528E05751D62EA /* Pods-CITest-LlamaKit-Private.xcconfig */,
+				CFC940990BA15CE9F5DFC59B /* Pods-CITest-LlamaKit-dummy.m */,
+				407D8906A6C966BF1196BD1B /* Pods-CITest-LlamaKit-prefix.pch */,
+				C5A4B98526143F1716C40576 /* Pods-CITest-LlamaKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-CITest-LlamaKit";
+			sourceTree = "<group>";
+		};
+		B185FCAED1C9473DAAC12113 /* LlamaKit */ = {
+			isa = PBXGroup;
+			children = (
+				05CEA65D2F092ABA25A69142 /* Result.swift */,
+				AB9DA910278FC803A374AAF9 /* Support Files */,
+			);
+			path = LlamaKit;
+			sourceTree = "<group>";
+		};
+		BAAB4E9951F34E91759634A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE76FF4128FCC2905087590C /* LlamaKit.framework */,
+				2BBF1FCC195545FDD755525D /* Pods_CITest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		14E67756AC7EF01D06EAFC4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20D9D7975EB8F5678E9D342 /* Pods-CITest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7782656CEE532C0953460DF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36306BCAD5AB5A17E9EB1DFD /* Pods-CITest-LlamaKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		414B3092931DC56094B30DF0 /* Pods-CITest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E937DF613B795E8D1F366B /* Build configuration list for PBXNativeTarget "Pods-CITest" */;
+			buildPhases = (
+				4659B44BEFA11A891A0DE603 /* Sources */,
+				702C485938B776C91643692B /* Frameworks */,
+				14E67756AC7EF01D06EAFC4B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				196217DD6FA66B40C9C3A4A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-CITest";
+			productName = "Pods-CITest";
+			productReference = 2BBF1FCC195545FDD755525D /* Pods_CITest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7D0DA93052A8FF3BD3D1552 /* Pods-CITest-LlamaKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F9CD068B4EE66AC2BB8201 /* Build configuration list for PBXNativeTarget "Pods-CITest-LlamaKit" */;
+			buildPhases = (
+				37044F601F58CF3638562101 /* Sources */,
+				FA3217187074194CDF209472 /* Frameworks */,
+				7782656CEE532C0953460DF5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CITest-LlamaKit";
+			productName = "Pods-CITest-LlamaKit";
+			productReference = EE76FF4128FCC2905087590C /* LlamaKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
 /* Begin PBXProject section */
-		EAA9BBB9ADA6198B5E5D22C1 /* Project object */ = {
+		C2431A3E9FD67AC66435F7C4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = BCB48D9A015687D3506E4683 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = B674973E1DB33494AECDB8DE /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4A7606980503A873E5087E82;
-			productRefGroup = 47B2C28A01F0A8D06B4FB68A /* Products */;
+			mainGroup = 2DB5C1D93D2501768C6B4266;
+			productRefGroup = BAAB4E9951F34E91759634A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				414B3092931DC56094B30DF0 /* Pods-CITest */,
+				A7D0DA93052A8FF3BD3D1552 /* Pods-CITest-LlamaKit */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXSourcesBuildPhase section */
+		37044F601F58CF3638562101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FADB19A1C6F5476961C7390 /* Pods-CITest-LlamaKit-dummy.m in Sources */,
+				B6DE05A9266C7A72B0AE6E0B /* Result.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4659B44BEFA11A891A0DE603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28E871E0D5737DAD6167A44 /* Pods-CITest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		196217DD6FA66B40C9C3A4A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CITest-LlamaKit";
+			target = A7D0DA93052A8FF3BD3D1552 /* Pods-CITest-LlamaKit */;
+			targetProxy = 941FAD89D4B11D9B232382D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		9C4ED277A452152EDB950957 /* Debug */ = {
+		295BD69B63B7932663CCAD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F630523C57528E05751D62EA /* Pods-CITest-LlamaKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CITest-LlamaKit/Pods-CITest-LlamaKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CITest-LlamaKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CITest-LlamaKit/Pods-CITest-LlamaKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LlamaKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B68FA7AA41944146C88D2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808560660AA97BA37F60ED3F /* Pods-CITest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CITest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CITest/Pods-CITest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CITest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6EE18421E960E2155A9F9361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEAE60B6A2CC9967AC5AF605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F630523C57528E05751D62EA /* Pods-CITest-LlamaKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CITest-LlamaKit/Pods-CITest-LlamaKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CITest-LlamaKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CITest-LlamaKit/Pods-CITest-LlamaKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LlamaKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D54D0FA65ED0A4444592A23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 521BBEF79291C49BAB61767D /* Pods-CITest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CITest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CITest/Pods-CITest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CITest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E015D0B4EBB4DB7CACC2DB04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -106,53 +467,37 @@
 			};
 			name = Debug;
 		};
-		AE7F4BEAD0E1933C0AFE9577 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BCB48D9A015687D3506E4683 /* Build configuration list for PBXProject "Pods" */ = {
+		23E937DF613B795E8D1F366B /* Build configuration list for PBXNativeTarget "Pods-CITest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C4ED277A452152EDB950957 /* Debug */,
-				AE7F4BEAD0E1933C0AFE9577 /* Release */,
+				D54D0FA65ED0A4444592A23D /* Debug */,
+				3B68FA7AA41944146C88D2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F9CD068B4EE66AC2BB8201 /* Build configuration list for PBXNativeTarget "Pods-CITest-LlamaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				295BD69B63B7932663CCAD22 /* Debug */,
+				AEAE60B6A2CC9967AC5AF605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B674973E1DB33494AECDB8DE /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E015D0B4EBB4DB7CACC2DB04 /* Debug */,
+				6EE18421E960E2155A9F9361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EAA9BBB9ADA6198B5E5D22C1 /* Project object */;
+	rootObject = C2431A3E9FD67AC66435F7C4 /* Project object */;
 }
