@@ -23,8 +23,8 @@ class CITestTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTFail("failing test")
-//        XCTAssert(true, "Pass")
+//        XCTFail("failing test")
+        XCTAssert(true, "Pass")
     }
 
     func test_alwaysPasses() {
